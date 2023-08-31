@@ -2,10 +2,9 @@ import streamlit as st
 import fitz  # PyMuPDF
 import re
 import openai
-from config import OPENAI_API_KEY
 
 # Set your OpenAI API key
-openai.api_key = OPENAI_API_KEY
+openai.api_key = st.secret['OPENAI_API_KEY']
 
 # Streamlit UI components
 st.title("Thesis Generator App")
