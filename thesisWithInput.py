@@ -4,7 +4,7 @@ import re
 import openai
 
 # Set your OpenAI API key
-openai.api_key = st.secret['OPENAI_API_KEY']
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit UI components
 st.title("Thesis Generator App")
