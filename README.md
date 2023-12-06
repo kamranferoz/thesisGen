@@ -14,3 +14,4 @@ A sample thesis created by this app!
 
 <img width="509" alt="image" src="https://github.com/kamranferoz/thesisGen/assets/34434270/5a2ec1dd-4e72-41cb-a60d-d6bcc68d6161">
 
+https://genthesis.streamlit.app/
