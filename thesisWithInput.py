@@ -56,7 +56,7 @@ if st.button("Generate Thesis"):
         for idx, citation in enumerate(citations, start=1):
             prompt += f"Citation {idx}: {citation}\n"
         response = openai.Completion.create(
-            engine="text-davinci-003",  # Choose appropriate engine
+            engine="gpt-3.5-turbo-instruct",  # Choose appropriate engine
             prompt=prompt,
             max_tokens=800,  # Adjust as needed
         )
